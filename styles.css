@@ -1,0 +1,66 @@
+/* --- Estilos Generales y Tipografía --- */
+body {
+    background-color: #f8f9fa; /* Un gris muy claro para el fondo */
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+}
+
+/* --- Encabezado --- */
+header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.text-primary {
+    color: #0d6efd !important; /* Color principal de Equitel (asumido) */
+}
+
+/* --- Tarjetas (Cards) de Contenido --- */
+.custom-card {
+    border: none; /* Quitamos el borde por defecto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para interactividad */
+    border-radius: 0.5rem; /* Bordes más redondeados */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: 700;
+    color: #495057;
+}
+
+/* --- Estilos para Tablas --- */
+.table-responsive {
+    max-height: 450px; /* Altura máxima para las tablas antes de mostrar scroll */
+}
+
+.table-hover > tbody > tr:hover > * {
+    background-color: #e9ecef; /* Un color de fondo sutil para la fila seleccionada */
+    cursor: pointer;
+}
+
+/* --- Estilos específicos para visualizaciones --- */
+.progress-bar-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.progress {
+    height: 1.25rem; /* Barras de progreso más altas */
+    font-size: 0.75rem;
+}
+
+.cost-value {
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada para números */
+    font-weight: 700;
+    color: #0d6efd;
+}
+
+.days-value {
+    font-weight: 700;
+    color: #dc3545; /* Rojo para destacar días de antigüedad */
+}
