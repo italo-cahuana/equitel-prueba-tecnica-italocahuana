@@ -23,17 +23,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Datos para el Top 15 Clientes con Mayor Tiempo Promedio
     const topClientsData = [
-        { client: 'CONCESIONARIA SAN RAFAEL', avgDays: 381 },
-        { client: 'CONCESIONARIA VIAL DE LOS ANDES S.A.', avgDays: 216 },
-        { client: 'COOPERATIVA COLANTA', avgDays: 174 },
-        { client: 'DIAZ VILLARRAGA JOSE LUIS', avgDays: 307 },
-        { client: 'ENTREGA DE CARGA S A', avgDays: 147 },
-        { client: 'ESE HOSPITAL SAN RAFAEL DE G', avgDays: 139 },
-        { client: 'HERNANDEZ ORTIZ JORGE ALEIXEN', avgDays: 237 },
-        { client: 'LINARES RODRIGUEZ LUCAS ORLANDO', avgDays: 338 },
-        { client: 'MINCIVIL S A', avgDays: 445 },
-        { client: 'SOCIEDAD DE ACUEDUCTO ALCANTARILLADO Y ASEO', avgDays: 184 },
-        { client: 'TRANSPORTES VIGIA SAS', avgDays: 154 }
+	{ client: 'ENTREGA DE CARGA S A', avgDays: 445 },
+        { client: 'AGUDELO TORRES LUIS EMIGDIO', avgDays: 381 },
+	{ client: 'DIAZ VILLARRAGA JOSE LUIS', avgDays: 338 },
+	{ client: 'C I BANACOL SA', avgDays: 307 },
+	{ client: 'COOPERATIVA COLANTA', avgDays: 237 },
+        { client: 'ARINTIA GROUP S.A.S.', avgDays: 216 },
+	{ client: 'SOCIEDAD DE ACUEDUCTO ALCANTARILLADO Y ASEO', avgDays: 194 },
+	{ client: 'ESE HOSPITAL SAN RAFAEL DE G', avgDays: 184 },
+	{ client: 'MINCIVIL S A', avgDays: 180 },
+        { client: 'LINARES RODRIGUEZ LUCAS ORLANDO', avgDays: 179 },
+        { client: 'TRANSPORTES VIGIA SAS', avgDays: 175 },
+        { client: 'BIOAGRICOLA DEL LLANO S. A.', avgDays: 174 },
+        { client: 'HERNANDEZ ORTIZ JORGE ALEIXEN', avgDays: 154 },
+        { client: 'CONCESIONARIA SAN RAFAEL', avgDays: 147 },
+        { client: 'CONCESIONARIA VIAL DE LOS ANDES S.A.', avgDays: 139 }
     ];
     
     // Datos para las 20 OTs con mayor tiempo abiertas
@@ -183,4 +187,5 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTopClients();
         renderOldestOts();
     }, 500); // 0.5 segundos de retraso
+
 });
